@@ -1,0 +1,34 @@
+.contactSection {
+    padding: 50px 20px;
+    background-color: whitesmoke;
+  }
+  
+  .contactSection h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .contactInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .contactInfo div {
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .contactInfo a {
+    color: orange;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .contactInfo a:hover {
+    text-decoration: underline;
+  }
+  

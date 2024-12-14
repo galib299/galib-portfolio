@@ -1,0 +1,34 @@
+.DrawerHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.DrawerCollapse {
+  height: 85%;
+  border: none;
+  background-color: white;
+}
+
+.DrawerCloseIcon {
+  width: 12vmin;
+  height: 8vmin;
+  border-radius: 2vmin;
+  display: flex;
+  justify-content: center;
+  background-color: #0d1429;
+}
+
+.DiplomacyLogo {
+  bottom: 20px;
+}
+
+.MenuText{
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.SubMenuText{
+    font-size: 1em;
+    font-weight: 500;
+}

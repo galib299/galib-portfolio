@@ -1,0 +1,78 @@
+.Header {
+  z-index: 1000;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 9% 10px 5%;
+  height: 15%;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
+.MenuButton {
+  bottom: 25%;
+  left: 5%;
+}
+
+.Logo {
+  width: 30vmin;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+}
+
+.DiplomacyLogo {
+  @media (max-width: 768px) {
+    width: 20vmin;
+    margin-right: 0px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+.DiplomaticLogo {
+  @media (max-width: 768px) {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.NavBar {
+  width: 95vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.4em;
+    text-align: center;
+  }
+}
+
+.NavBarText {
+  cursor: pointer;
+  font-size: 1.1vw;
+  color: black;
+
+  @media (max-width: 768px) {
+    margin-top: 5vw;
+    font-size: 4vw;
+  }
+}
